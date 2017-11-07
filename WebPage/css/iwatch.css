@@ -5,6 +5,7 @@
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     cursor:pointer;   
     text-align: center;
+    padding-bottom: 10px; 
 }
 
 /*apple logo*/
@@ -29,7 +30,7 @@ cursor:pointer;
     color: rgb(221,27,32);
     font-weight: bold;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     cursor:pointer;  
 }
 
