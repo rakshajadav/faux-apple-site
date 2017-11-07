@@ -1,0 +1,49 @@
+/*the whole section*/
+#event{
+    padding-top: 20px;
+    background-color: rgb(255,255,255);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor:pointer;  
+    text-align: center;
+}
+
+/*Watch the keynote*/
+#keynote{
+    color: rgb(0,112,201);
+    cursor:pointer;  
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+section.module.content{
+    padding: 20px 0;
+}
+
+div.module.parallax-4{
+    background-image: url("../images/evelog.png");
+    width:100%;
+    background-position-x: top;
+    background-size:cover;
+    padding-bottom:0px;
+}
+
+.module.parallax.parallax-4{
+    padding: 500px 0px 150px 0px;
+}
+
+@media all and (min-width: 100px){
+    section.module.parallax{
+        padding: 300px 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    div.module.parallax-4{
+        background-position: bottom;
+        background-attachment: local;
+    }
+    div.module.parallax.parallax-4{
+        padding: 500px 0px 80px 0px;
+    }
+}
+

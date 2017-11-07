@@ -1,0 +1,15 @@
+/*the whole section*/
+#donate{
+    padding: 40px 0px;
+    text-align: center;
+}
+/*Donate to support hurricane relief efforts*/
+#donateheading{
+    margin-top: 8px;
+    font-size: 1.0625em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor:pointer;  
+}
+#donate img{
+    height: 85px;
+}

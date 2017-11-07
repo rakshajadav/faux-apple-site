@@ -1,0 +1,89 @@
+/*the whole section*/
+#watch3{
+    padding-top: 20px;
+    background-color:rgb(255,255,255);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor:pointer;   
+    text-align: center;
+}
+
+/*apple logo*/
+#w3logo{
+    margin-bottom: 17px;   
+    cursor:pointer;  
+    height:38px;
+}
+
+/*watch*/
+#ws3heading{
+font-size: 2.5em;
+height: 38px;
+cursor:pointer;  
+}
+
+/*series 3*/
+#s3heading{
+    padding-left: 12px;    
+    letter-spacing: 0.15625em;
+    font-size: 1em;
+    color: rgb(221,27,32);
+    font-weight: bold;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+    cursor:pointer;  
+}
+
+/*freesom calls*/
+#freecheading{
+    padding-left: 10px;
+    font-size: 1.625em;
+    margin-bottom: 0px;
+    cursor:pointer;  
+    padding-bottom: 20px;
+}
+
+section.module.content{
+    padding: 20px 0;
+}
+
+div.module.parallax-3{
+    background-image: url("../images/w3.png");
+    background-color: rgb(250,250,250);
+    background-position-x: top;
+    width:100%;
+    background-size:contain;
+    padding-bottom:0px;
+}
+
+.module.parallax.parallax-3{
+    padding: 300px 0px 300px 0px;
+}
+
+@media all and (min-width: 100px){
+    section.module.parallax{
+        padding: 300px 0;
+    }
+}
+
+@media screen and (max-width: 340px){
+    div.module.parallax.parallax-3{
+        padding: 300px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    div.module.parallax.parallax-3{
+        padding: 450px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1210px){
+    div.module.parallax-3{
+        background-size:cover;
+        background-position: bottom;
+        background-attachment: local;
+    }
+    div.module.parallax.parallax-3{
+        padding: 550px 0px 0px 0px;
+    }
+}
