@@ -17,7 +17,7 @@
     ->li-subcategory
     ->a
 */
-#category{
+.category{
     font-weight: bold;
     color: rgb(0, 0, 0);
     margin-bottom: 4px;
@@ -26,7 +26,7 @@
     padding-left: 0px;    
 }
 
-.row #subcategory a{
+.subcategory a{
     font-style: normal;
     font-weight: normal;
     color: rgb(119, 136, 153);
@@ -40,14 +40,14 @@
 }
 
 /*the whole section*/
-#bottom{
+.bottom{
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 0.75em;
     padding-left: 9%;
     color:rgb(105, 105, 105);
 }
 
-#bottom a{
+.bottom a{
     padding-left:0px;
     padding-right: 0px; 
 }
@@ -57,11 +57,7 @@
     margin-bottom: 8px;
 }
 
-#tab{ display:inline-block; 
-    margin-left: 60px; 
-}
-
-#secdivider{
+.secdivider{
       display:inline-block; 
       margin-left: 20px; 
       cursor:pointer;  
@@ -73,49 +69,45 @@
     cursor:pointer;  
 }
 
-#subcategory a{
+.subcategory a{
     padding-left: 0px;
 }
 
-#subcatlist{
+.subcatlist{
     padding: 0px;
 }
 
 @media (max-width: 770px){
-    #category{
+    .category{
         padding-left: 50px;
         margin-top: 4px;
         margin-bottom: 4px;
-        font-size: 0.75em;
+        font-size: 0.85em;
         width: 230px;   
     }
-    .row #subcategory a{
+    .subcategory a{
         padding-left: 50px;
-        font-size: 0.75em;
+        font-size: 0.85em;
     }
-    nav > .row > #catlist:first-child{
+    nav > .row > .catlist:first-child{
         margin: 0;
     }
-    nav > .row > #catlist:first-child a{
+    nav > .row > .catlist:first-child a{
         border: 0;
     }
     
     /* Dropdown menu */
-    #subcatlist{ 
+    .subcatlist{ 
         position: absolute;
         margin: 0;
         padding: 0;
         display: none;
-    }
-        
-    #subcategory{ 
+    }   
+    .subcategory{ 
         text-align: left;
         margin-bottom: 0px;
     }
-    #subcategory a{
-        padding: 0px;
-    }
-    #catlist:hover ul{
+    .catlist:hover ul{
         display: block; 
         position:relative;
     }  

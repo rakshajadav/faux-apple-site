@@ -1,5 +1,5 @@
 /*menu bar*/
-#menubar{
+nav.topnav{
     background-color: rgba(0,0,0,0.8);
     color: rgb(255,255,255);
     font-size: 0.875em;
@@ -61,4 +61,5 @@ nav a{
   padding-left: 3%;
   padding-right: 3%;
   cursor:pointer;  
+  color: rgb(255,255,255);
 }
