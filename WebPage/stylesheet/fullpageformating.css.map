@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAEA,OAAO;EACL,OAAO,EAAE,QAAQ;EACjB,UAAU,EAAE,MAAM;;;AAIpB,cAAc;EACZ,UAAU,EAAE,GAAG;EACf,SAAS,EAAE,QAAQ;EACnB,WAAW,EAAE,iFAA4E;EACzF,MAAM,EAAE,OAAO;;AAEjB,WAAW;EACT,MAAM,EAAE,IAAI",
+"sources": ["fullpageformating.sass"],
+"names": [],
+"file": "fullpageformating.css"
+}
