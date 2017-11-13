@@ -1,0 +1,366 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  overflow-x: hidden; }
+
+h2 {
+  font-size: 3.5em;
+  cursor: pointer; }
+
+.headingdesc {
+  font-size: 2em;
+  margin-bottom: 0px; }
+
+@media screen and (max-width: 770px) {
+  h3 {
+    font-size: 1.0625em; }
+
+  h2 {
+    font-size: 2.0625em; } }
+#doesntdisplay {
+  display: none; }
+
+/*menu bar */
+nav.topnav {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 0.875em;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
+  text-align: center; }
+
+/*hiding the burgermenu icon */
+.topnav .icon {
+  display: none; }
+
+/*displaying 3 icons on the menubar */
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child):not(:nth-child(10)):not(:last-child) {
+    display: none; }
+  .topnav a.icon {
+    float: left;
+    display: block; }
+  .topnav a:nth-child(10) {
+    float: right; }
+  .topnav.responsive {
+    position: relative; }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center; }
+
+  /*burger icon */
+  /*shopping bag icon */
+  /*on clicking burger menu icon */
+  #menubar.topnavresponsive a:nth-child(even) {
+    width: 50%;
+    float: right; }
+  #menubar.topnavresponsive a:nth-child(odd) {
+    width: 50%;
+    float: left; } }
+nav a {
+  padding-left: 3%;
+  padding-right: 3%;
+  cursor: pointer;
+  color: white; }
+
+/*the whole section */
+.phone8desc {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+  padding-top: 60px;
+  background-color: #f9f0e9;
+  text-align: center; }
+
+section.module.content {
+  padding: 20px 0; }
+
+div.module.parallax-1 {
+  background-image: url("../images/ip8.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #f9f0e9;
+  background-size: cover;
+  padding-bottom: 0; }
+
+.module.parallax.parallax-1 {
+  padding: 200px 0px; }
+
+@media all and (min-width: 100px) {
+  section.module.parallax {
+    padding: 300px 0; } }
+/*the whole section */
+.phonexdesc {
+  padding-top: 30px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+  padding-bottom: 30px;
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+section.module.content {
+  padding: 20px 0; }
+
+div.module.parallax-2 {
+  background-image: url("../images/ipx.png");
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 0;
+  background-repeat: repeat-y;
+  height: 100%; }
+div.module.parallax.parallax-2 {
+  padding: 200px 0px 100px 0px; }
+
+@media all and (min-width: 100px) {
+  section.module.parallax {
+    padding: 300px 0; } }
+@media screen and (max-width: 340px) {
+  div.module.parallax.parallax-2 {
+    padding: 100px 0px 0px 0px; } }
+@media screen and (max-width: 620px) {
+  div.module.parallax.parallax-2 {
+    padding: 200px 0px 50px 0px; } }
+@media screen and (max-width: 770px) {
+  div.module.parallax.parallax-2 {
+    padding: 230px 0px 50px 0px; } }
+/*the whole section */
+.watch3desc {
+  padding-top: 20px;
+  background-color: white;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 10px; }
+
+/*apple logo */
+#w3logo {
+  margin-bottom: 17px;
+  cursor: pointer;
+  height: 38px; }
+
+/*watch */
+#ws3heading {
+  font-size: 2.5em;
+  height: 38px;
+  cursor: pointer; }
+
+/*series 3 */
+#s3heading {
+  padding-left: 12px;
+  letter-spacing: 0.15625em;
+  font-size: 1em;
+  color: #dd1b20;
+  font-weight: bold;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+  cursor: pointer; }
+
+/*freesom calls */
+#freecheading {
+  padding-left: 10px;
+  font-size: 1.625em;
+  margin-bottom: 0px;
+  cursor: pointer;
+  padding-bottom: 20px; }
+
+section.module.content {
+  padding: 20px 0; }
+
+div.module.parallax-3 {
+  background-image: url("../images/w3.png");
+  background-color: #fafafa;
+  background-position-x: top;
+  width: 100%;
+  background-size: contain;
+  padding-bottom: 0px; }
+
+.module.parallax.parallax-3 {
+  padding: 300px 0px 300px 0px; }
+
+@media all and (min-width: 100px) {
+  section.module.parallax {
+    padding: 300px 0; } }
+@media screen and (max-width: 340px) {
+  div.module.parallax.parallax-3 {
+    padding: 300px 0px 0px 0px; } }
+@media screen and (max-width: 770px) {
+  div.module.parallax.parallax-3 {
+    padding: 450px 0px 0px 0px; } }
+@media screen and (max-width: 1210px) {
+  div.module.parallax-3 {
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: local; }
+  div.module.parallax.parallax-3 {
+    padding: 550px 0px 0px 0px; } }
+/*the whole section */
+.eventdesc {
+  padding-top: 20px;
+  background-color: white;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+  text-align: center; }
+
+/*Watch the keynote */
+#keynote {
+  color: #0070c9;
+  cursor: pointer;
+  margin-bottom: 0px;
+  padding-bottom: 20px; }
+
+section.module.content {
+  padding: 20px 0; }
+
+div.module.parallax-4 {
+  background-image: url("../images/evelog.png");
+  width: 100%;
+  background-position-x: top;
+  background-size: cover;
+  padding-bottom: 0px; }
+
+.module.parallax.parallax-4 {
+  padding: 500px 0px 150px 0px; }
+
+@media all and (min-width: 100px) {
+  section.module.parallax {
+    padding: 300px 0; } }
+@media screen and (max-width: 500px) {
+  div.module.parallax-4 {
+    background-position: bottom;
+    background-attachment: local; }
+  div.module.parallax.parallax-4 {
+    padding: 500px 0px 80px 0px; } }
+/*the whole section */
+#donate {
+  padding: 40px 0px;
+  text-align: center; }
+
+/*Donate to support hurricane relief efforts */
+#donateheading {
+  margin-top: 8px;
+  font-size: 1.0625em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  cursor: pointer; }
+
+#donate img {
+  height: 85px; }
+
+/*css grid */
+.row {
+  text-align: left;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 0.8em;
+  background-color: #f2f2f2;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  padding-left: 15%; }
+
+/*  ->nav
+ *  ->ul-row
+ *  ->li-catlist
+ *  ->a-category
+ *  ->ul-subcatlist
+ *  ->li-subcategory
+ *  ->a */
+.category {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  cursor: pointer;
+  padding-left: 0px; }
+
+.subcategory a {
+  font-style: normal;
+  font-weight: normal;
+  color: lightslategray;
+  margin-bottom: 1px;
+  display: block;
+  cursor: pointer; }
+
+.row li {
+  list-style-type: none; }
+
+/*the whole section */
+.bottom {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 0.75em;
+  padding-left: 9%;
+  color: dimgray; }
+  .bottom a {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+.row hr {
+  margin-top: 8px;
+  margin-bottom: 8px; }
+
+.secdivider {
+  display: inline-block;
+  margin-left: 20px;
+  cursor: pointer; }
+
+/*Copyright ┬⌐ 2017 Apple Inc. ALl rights reserved. */
+#copyright {
+  padding-bottom: 30px;
+  cursor: pointer; }
+
+.subcategory a {
+  padding-left: 0px; }
+
+.subcatlist {
+  padding: 0px; }
+
+@media (max-width: 770px) {
+  .category {
+    padding-left: 50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 0.85em;
+    width: 230px; }
+
+  .subcategory a {
+    padding-left: 50px;
+    font-size: 0.85em; }
+
+  nav > .row > .catlist:first-child {
+    margin: 0; }
+    nav > .row > .catlist:first-child a {
+      border: 0; }
+
+  /* Dropdown menu */
+  .subcatlist {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: none; }
+
+  .subcategory {
+    text-align: left;
+    margin-bottom: 0px; }
+
+  .catlist:hover ul {
+    display: block;
+    position: relative; } }
+/*applying style on the image */
+#tv4k #tvimg {
+  width: 100%; }
+
+@media screen and (max-width: 770px) {
+  #tv4k {
+    width: 200%;
+    margin-left: -50%; } }
+
+/*# sourceMappingURL=allsass.css.map */

@@ -21,9 +21,11 @@ nav.topnav {
 @media screen and (max-width: 800px) {
   .topnav a:not(:first-child):not(:nth-child(10)):not(:last-child) {
     display: none; }
+  /*burger icon */
   .topnav a.icon {
     float: left;
     display: block; }
+  /*shopping bag icon */
   .topnav a:nth-child(10) {
     float: right; }
   .topnav.responsive {
@@ -37,8 +39,8 @@ nav.topnav {
       display: block;
       text-align: center; }
 
-  /*burger icon */
-  /*shopping bag icon */
+  
+  
   /*on clicking burger menu icon */
   #menubar.topnavresponsive a:nth-child(even) {
     width: 50%;
