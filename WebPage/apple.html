@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <link href="stylesheet/bootstrap.min.css" rel="stylesheet">
     <link href="stylesheet/allsass.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -79,71 +81,24 @@
     </article>
   </section>
 
+  
 <footer>
+    
   <div class="navbar-default">
     <section class="container-fluid">
-    <ul class="nav row">
-      <li class="col-md-2 catlist"><a href="#" class="category">Shop and learn</a>
-        <ul class="subcatlist">
-          <li class="subcategory"><a href="#">Mac</a></li>
-          <li class="subcategory"><a href="#">iPad</a></li>
-          <li class="subcategory"><a href="#">iPhone</a></li>
-          <li class="subcategory"><a href="#">Watch</a></li>
-          <li class="subcategory"><a href="#">TV</a></li>
-          <li class="subcategory"><a href="#">Music</a></li>
-          <li class="subcategory"><a href="#">iTunes</a></li>
-          <li class="subcategory"><a href="#">HomePod</a></li>
-          <li class="subcategory"><a href="#">iPod touch</a></li>
-          <li class="subcategory"><a href="#">Accessories</a></li>
-          <li class="subcategory"><a href="#">Gift Cards</a></li>
-        </ul>
-      </li>
-      <li class="col-md-2 catlist"><a href="#" class="category">Apple store</a>
-        <ul class="subcatlist">
-          <li class="subcategory"><a href="#">Find a store</a></li>
-          <li class="subcategory"><a href="#">Genius bar</a></li>
-          <li class="subcategory"><a href="#">Today at apple</a></li>
-          <li class="subcategory"><a href="#">Apple camp</a></li>
-          <li class="subcategory"><a href="#">Field trip</a></li>
-          <li class="subcategory"><a href="#">Apple store app</a></li>
-          <li class="subcategory"><a href="#">Refurbished and clearance</a></li>
-          <li class="subcategory"><a href="#">Financing</a></li>
-          <li class="subcategory"><a href="#">Reuse and recycling</a></li>
-          <li class="subcategory"><a href="#">Order status</a></li>
-          <li class="subcategory"><a href="#">Shopping help</a></li>
-        </ul>
-      </li>
-      <li class="col-md-2 catlist"><a href="#" class="category">For education and business</a>
-        <ul class="subcatlist">
-          <li class="subcategory"><a href="#">Apple and education</a></li>
-          <li class="subcategory"><a href="#">Shop for college</a></li>
-          <li class="subcategory"><a href="#">Apple and business</a></li>
-          <li class="subcategory"><a href="#">Shop for business</a></li>
-        </ul>
-      </li>
-      <li class="col-md-2 catlist"><a href="#" class="category">Apple values</a>
-        <ul class="subcatlist">
-          <li class="subcategory"><a href="#">Accessability</a></li>
-          <li class="subcategory"><a href="#">Education</a></li>
-          <li class="subcategory"><a href="#">Environment</a></li>
-          <li class="subcategory"><a href="#">Inclusion and diversity</a></li>
-          <li class="subcategory"><a href="#">Privacy</a></li>
-          <li class="subcategory"><a href="#">Supplier responsibility</a></li>
-        </ul>
-      </li>
-      <li class="col-md-2 catlist"><a href="#" class="category">About apple</a>
-        <ul class="subcatlist">
-        <li class="subcategory"><a href="#">Newsroom</a></li>
-        <li class="subcategory"><a href="#">Apple leadership</a></li>
-        <li class="subcategory"><a href="#">Job opportunities</a></li>
-        <li class="subcategory"><a href="#">Investors</a></li>
-        <li class="subcategory"><a href="#">Events</a></li>
-        <li class="subcategory"><a href="#">Contact apple</a></li>
-        </ul>
-      </li>
-    </ul>
-  </section>
-</div>
+      <ul class="nav row" id="blogPostContainer">
+        <link type="text/css" rel="stylesheet" href="stylesheet/ifooter.css"/>
+        <script id="blogPostTemplate" type="text/x-jQuery-tmpl">
+        <li class="col-md-2 catlist"><a href="#" class="category">${postTitle}</a>
+              <ul class="subcatlist">
+        {{each categories}} <li class="subcategory"><a>${$value}</a></li> {{/each}}
+              </ul>
+            </li>   
+  </script>
+  <script src="js/templatescript.js"></script>
+  </ul>
+    </section>
+    </div>
   <div class="bottom">
     More ways to shop: Visit an<a href="#"> Apple Store </a>,call 1-800-MY-APPLE, or <a href="#">find a reseller</a>
     <hr>
@@ -154,4 +109,11 @@
   </body>
   <script src="js/effect.js"></script>
   <script src="js/navbar.js"></script>
+  <script type="text/javascript" src="../jquery-1.4.4.js"></script>
+  <script type="text/javascript" src="../jquery.min.js"></script>
+<script type="text/javascript" src="../jquery.loadTemplate-1.4.3.js"></script>
+<script type="text/javascript">
+  
+            
+     </script>
 </html>
